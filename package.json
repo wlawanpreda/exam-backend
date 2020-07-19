@@ -23,7 +23,7 @@
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.7",
     "jest": "^25.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "merge-graphql-schemas": "^1.6.2-3705b28.0",
     "uuid": "^7.0.2"
   },
