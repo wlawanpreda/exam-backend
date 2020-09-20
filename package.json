@@ -20,11 +20,13 @@
   "dependencies": {
     "apollo-server": "^2.11.0",
     "apollo-server-testing": "^2.11.0",
+    "dotenv": "^8.2.0",
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.7",
     "jest": "^25.1.0",
     "lodash": "^4.17.15",
     "merge-graphql-schemas": "^1.6.2-3705b28.0",
+    "mongoose": "^5.10.5",
     "uuid": "^7.0.2"
   },
   "jest": {

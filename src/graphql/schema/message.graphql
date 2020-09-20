@@ -14,7 +14,7 @@ type Query {
 }
 
 type Mutation {
-  sendMessage(roomName: String!, message: String!): VoidResponse
+  sendMessage(roomName: String!, message: String!, user: String): VoidResponse
 }
 
 type Subscription {
