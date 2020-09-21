@@ -4,9 +4,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    #volumes:
-    #  - .:/usr/src/api
-    #  - /usr/src/api/node_modules
+    volumes:
+      - .:/usr/src/api
+      - /usr/src/api/node_modules
     ports:
       - 4000:4000
     environment:
